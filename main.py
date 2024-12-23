@@ -27,7 +27,7 @@ if os.path.exists(directory) and os.path.isdir(directory):
         rp.report_parser(document)  # Assuming this is where you're parsing the report
 
         # Update the loading bar after processing each file
-        loading_bar(idx, total_files)
+        #loading_bar(idx, total_files)
 
     print()
 
